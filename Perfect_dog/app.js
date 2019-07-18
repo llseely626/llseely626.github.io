@@ -3,7 +3,36 @@ $(() => {
     let endpoint = `https://dog.ceo/api/breed/${titleQuery}/images/random`
     console.log(endpoint);
 
+    //Does Modal code go here?
+    // Grabbing How to use this app button
+    const $openBtn = $('#openModal');
 
+    // Grabbing modal element
+    const $modal = $('#modal');
+    $($modal).css('display', 'none');
+
+    // Grabbing close button
+    const $closeBtn = $('#close');
+
+    // Event handler to open the modal
+    const openModal = () => {
+        $modal.css('display', 'block');
+    }
+
+
+    // $(openModal).hide();
+    setTimeout(openModal, 2000);
+
+    // Event handler to close the modal
+    const closeModal = () => {
+        $modal.css('display', 'none');
+    }
+
+    //Add event listener to Close button
+    $closeBtn.on('click', closeModal);
+
+    $openBtn.on('click', openModal)
+    $closeBtn.on('click', closeModal);
 
     const handleData = (data) => {
         console.log(data.message)

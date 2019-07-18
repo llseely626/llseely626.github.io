@@ -39,6 +39,48 @@ image {
     border-color: black;
 }
 
+#modal-textbox {
+    padding: 2%;
+    line-height: 120%;
+    border: 2px solid black;
+
+}
+
+#modal-footer {
+    text-align: center;
+}
+
+#h1-header {
+    font-size: 16px;
+}
+
+#h1-paragraph {
+    font-size: 14px;
+}
+
+/* change this */
+.modal-buttons {
+    padding: 14px 18px;
+    background-color: #677996;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Arial';
+    cursor: pointer;
+}
+
+#openModal {
+    padding: 14px 18px;
+    background-color: #677996;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Arial';
+    cursor: pointer;
+}
+
 @media (min-width: 320px) and (max-width:750px) {
 
 
