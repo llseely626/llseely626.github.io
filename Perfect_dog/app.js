@@ -17,6 +17,12 @@ $(() => {
         $body = $('body')
         $body.append($img)
         $body.append($breed)
+        const $container = $('.container')
+        $body.append($container);
+        const $imgDiv = $('<div>');
+        //     $imgDiv.addClass('image-div');
+        //     $img.append($imgDiv); 
+        //not working
     }
 
 
@@ -30,11 +36,11 @@ $(() => {
         }).then((handleData))
     }
     //get data asynchronously, when the data gets back, handle it
-    // console.log(data.resp)
+
 
     const $button = $('button');
     $button.on('click', (event) => {
-        event.preventDefault();
+        event.preventDefault(); //prevents page from reloading
         $('.image').remove();
         $('.breed').remove();
         //clear input field?
