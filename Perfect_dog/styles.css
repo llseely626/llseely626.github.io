@@ -1,8 +1,10 @@
 body {
+    background-image: url("Perfect_dog_pawprints.png");
     background-color: bisque;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: purple;
 
 }
 
