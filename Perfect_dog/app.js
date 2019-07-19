@@ -1,9 +1,28 @@
 $(() => {
     let titleQuery;
     let endpoint = `https://dog.ceo/api/breed/${titleQuery}/images/random`
-    console.log(endpoint);
+    const allBreeds = "https://dog.ceo/api/breeds/list/all";
 
-    //Does Modal code go here?
+    $.ajax({
+        url: allBreeds
+    }).then((data) => {
+        const breeds = Object.keys(data.message)
+        for (let i = 0; i <= breeds.length; i++) {
+            const $option = $('<option>')
+            $option.text(breeds[i])
+            $option.attr('value', breeds[i])
+            $('#dropdown').append($option)
+        }
+    })
+
+    $('#dropdown').change(() => {
+        titleQuery = $('#dropdown').val()
+        $('.image').remove();
+        $('.breed').remove();
+        requestData();
+    })
+
+
     // Grabbing How to use this app button
     const $openBtn = $('#openModal');
 
@@ -35,11 +54,9 @@ $(() => {
     $closeBtn.on('click', closeModal);
 
     const handleData = (data) => {
-        console.log(data.message)
 
         const $breed = $('<h1>').text(titleQuery) //create h1 and put title inside
         $breed.addClass('breed');
-        console.log('breed:', titleQuery)
         const $img = $('<img>')
         $img.addClass('image')
         $img.attr("src", data.message)
@@ -49,9 +66,9 @@ $(() => {
         const $container = $('.container')
         $body.append($container);
         const $imgDiv = $('<div>');
-        //     $imgDiv.addClass('image-div');
-        //     $img.append($imgDiv); 
-        //not working
+        //would img hide () show() go here?
+        //or create a funtion to make image slide in? Where to put it?
+        // $img.show('slow'); ??
     }
 
 
@@ -59,7 +76,6 @@ $(() => {
 
     const requestData = () => {
         endpoint = `https://dog.ceo/api/breed/${titleQuery}/images/random`
-        console.log(endpoint)
         $.ajax({
             url: endpoint
         }).then((handleData))
@@ -67,17 +83,5 @@ $(() => {
     //get data asynchronously, when the data gets back, handle it
 
 
-    const $button = $('button');
-    $button.on('click', (event) => {
-        event.preventDefault(); //prevents page from reloading
-        $('.image').remove();
-        $('.breed').remove();
-        //clear input field?
-        titleQuery = $('.input').val()
-        $('.input').val('');
-        // Get value by targeting class
-        // get value of input field ex: titleQuery = $('.input').val()
 
-        requestData();
-    });
 })
