@@ -1,6 +1,6 @@
 body {
     background-image: url("Perfect_dog_pawprints.png");
-    background-color: bisque;
+    /* background-color: bisque; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,11 +20,13 @@ body {
 
 h1 {
     text-align: center;
+    color: #9c42f5;
     /* position: relative;
     right: 45px; */
 }
 
 h2 {
+    color: blue;
     text-align: center;
     /* padding-right: 80px; */
 }
@@ -46,6 +48,9 @@ image {
 }
 
 #modal-textbox {
+    background-color: blue;
+    color: whitesmoke;
+    opacity: .7;
     padding: 2%;
     line-height: 120%;
     border: 2px solid black;
@@ -56,18 +61,25 @@ image {
     text-align: center;
 }
 
+.modalh1 {
+    color: whitesmoke;
+}
+
 #h1-header {
     font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
 }
 
 #h1-paragraph {
     font-size: 14px;
+    text-align: center;
 }
 
 /* change this */
 .modal-buttons {
     padding: 14px 18px;
-    background-color: #677996;
+    background-color: #3d76d3;
     border: none;
     outline: none;
     border-radius: 3px;
@@ -76,15 +88,23 @@ image {
     cursor: pointer;
 }
 
+.modal-buttons:hover {
+    background-color: #b642f5;
+}
+
 #openModal {
     padding: 14px 18px;
-    background-color: #677996;
+    background-color: #3d76d3;
     border: none;
     outline: none;
     border-radius: 3px;
     color: white;
     font-family: 'Arial';
     cursor: pointer;
+}
+
+#openModal:hover {
+    background-color: #b642f5;
 }
 
 @media (min-width: 320px) and (max-width:750px) {
