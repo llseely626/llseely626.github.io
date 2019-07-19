@@ -66,6 +66,9 @@ $(() => {
         const $container = $('.container')
         $body.append($container);
         const $imgDiv = $('<div>');
+        $('.image').animate({
+            left: '0'
+        }, 'slow')
         //would img hide () show() go here?
         //or create a funtion to make image slide in? Where to put it?
         // $img.show('slow'); ??

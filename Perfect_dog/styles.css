@@ -28,8 +28,12 @@ h2 {
 }
 
 image {
-    /* align-content: center; */
     margin: auto;
+}
+
+.image {
+    position: relative;
+    left: -2000px;
 }
 
 
