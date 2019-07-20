@@ -1,10 +1,17 @@
 # llseely626.github.io
-Unit #1 Project #1
+# Unit #1 Project #1
 
-Project #1: Perfect_dog 
-Live link: https://llseely626.github.io/Perfect_dog/
+# Project #1: Perfect_dog 
 
-This project utilizes HTML, CSS, JavaScript, and jQuery.
+Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
+
+## Languages used:
+* HTML
+* CSS
+* javaScript
+* jQuery
+
+AJAX Requests & API
 
 I used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-api/) and was able to insert the data retrieved into the DOM. 
 
