@@ -4,7 +4,7 @@
 # Project #1: Dog Fetcher 
 ## Description: An application that allows the user to select from a dropdown menu of dog breeds and see a randomly generated image of that breed
 
-Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
+Live link: https://llseely626.github.io/Dog_fetcher/index "Dog_fetcher"
 
 ## Languages used:
 
