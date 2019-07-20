@@ -2,6 +2,7 @@
 # Unit #1
 
 # Project #1: Dog Fetcher 
+## Description: An application that allows the user to select from a dropdown menu of dog breeds and see a randomly generated image of that breed
 
 Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
 
@@ -18,7 +19,7 @@ I used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-a
 
 With the data retrieved, I created an application that allows the user to select from a dropdown menu of dog breeds and see a randomly generated image of that breed.
 
-## Coding Highlights:
+### Coding Highlights:
 
 * In one AJAX request I wrote a for loop which populated the dropdown menu with data retrieved from the API.
 
