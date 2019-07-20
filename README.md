@@ -34,5 +34,6 @@ I used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-a
 * Text is smaller on narrower media screens
 * Text remains aligned most of the time
 
-* Note: Due to the various sizes of photos returned from the API, it was difficult to keep alignment completely uniform on smaller screens. Perhaps I could find a way to select only photos with maximum dimensions to be displayed. This could be a feature I could add to improve this application in the future.
+## Unresolved problems:
+* Due to the various sizes of photos returned from the API, it was difficult to keep alignment completely uniform on smaller screens. Perhaps I could find a way to select only photos with maximum dimensions to be displayed. This could be a feature I could add to improve this application in the future.
 
