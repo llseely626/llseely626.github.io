@@ -15,7 +15,7 @@ Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
 
 ## AJAX Requests & API
 
-I used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-api/) and was able to insert the data retrieved into the DOM. 
+Used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-api/) and was able to insert the data retrieved into the DOM. 
 
 ### Coding Highlights:
 
