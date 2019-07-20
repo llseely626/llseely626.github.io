@@ -1,7 +1,7 @@
 # llseely626.github.io
 # Unit #1
 
-# Project #1: Perfect_dog 
+# Project #1: Dog Fetcher 
 
 Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
 
