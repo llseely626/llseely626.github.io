@@ -17,8 +17,6 @@ Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
 
 I used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-api/) and was able to insert the data retrieved into the DOM. 
 
-With the data retrieved, I created an application that allows the user to select from a dropdown menu of dog breeds and see a randomly generated image of that breed.
-
 ### Coding Highlights:
 
 * In one AJAX request I wrote a for loop which populated the dropdown menu with data retrieved from the API.
@@ -35,5 +33,6 @@ With the data retrieved, I created an application that allows the user to select
 * Set @media query settings in CSS that allowed for responsive design
 * Text is smaller on narrower media screens
 * Text remains aligned most of the time
-** Note Due to the various sizes of photos returned from the API, it was difficult to keep it completely uniform on smaller screens. Perhaps I could find a way to select only photos with maximum dimensions to be displayed. This could be a feature I could add to improve this application in the future.
+
+* Note Due to the various sizes of photos returned from the API, it was difficult to keep it completely uniform on smaller screens. Perhaps I could find a way to select only photos with maximum dimensions to be displayed. This could be a feature I could add to improve this application in the future.
 
