@@ -1,5 +1,5 @@
 body {
-    background-image: url("Perfect_dog_pawprints.png");
+    background-image: url("Dog_fetcher_pawprints.png");
     /* background-color: bisque; */
     display: flex;
     flex-direction: column;
@@ -134,6 +134,11 @@ image {
 
 @media (min-width: 320px) and (max-width:750px) {
 
+    .header {
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 38px;
+    }
 
     h1 {
         text-align: center;
@@ -147,5 +152,9 @@ image {
 
     .image {
         margin: 20px;
+    }
+
+    body {
+        background-image: url("Dog_fetcher_pawprints.png");
     }
 }
