@@ -40,7 +40,7 @@ $(() => {
 
 
     // $(openModal).hide();
-    setTimeout(openModal, 3000);
+    setTimeout(openModal, 4000);
 
     // Event handler to close the modal
     const closeModal = () => {
