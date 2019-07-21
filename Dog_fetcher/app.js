@@ -39,7 +39,7 @@ $(() => {
     }
 
 
-    // $(openModal).hide();
+    // Set Modal to open 4 seconds after page loads
     setTimeout(openModal, 4000);
 
     // Event handler to close the modal
@@ -49,9 +49,9 @@ $(() => {
 
     //Add event listener to Close button
     $closeBtn.on('click', closeModal);
-
+    //Add event listener to Open button
     $openBtn.on('click', openModal)
-    $closeBtn.on('click', closeModal);
+
 
     const handleData = (data) => {
 
@@ -73,7 +73,6 @@ $(() => {
     }
 
 
-    // attribute examples: <div id="" class="" onclick="" src="" href="" type="" alt="">HI</div>
 
     const requestData = () => {
         endpoint = `https://dog.ceo/api/breed/${titleQuery}/images/random`

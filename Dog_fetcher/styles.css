@@ -1,6 +1,5 @@
 body {
     background-image: url("Dog_fetcher_pawprints.png");
-    /* background-color: bisque; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +11,6 @@ body {
 .header {
     color: #9c42f5;
     font-weight: bold;
-    /* text-decoration: underline; */
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
@@ -27,22 +25,16 @@ body {
     border-width: 2px;
     border-style: solid;
     border-color: purple;
-    /* position: relative;
-    right: 40px; */
-
 }
 
 h1 {
     text-align: center;
     color: #9c42f5;
-    /* position: relative;
-    right: 45px; */
 }
 
 h2 {
     color: blue;
     text-align: center;
-    /* padding-right: 80px; */
 }
 
 image {
@@ -90,7 +82,6 @@ image {
     text-align: center;
 }
 
-/* change this */
 .modal-buttons {
     padding: 14px 18px;
     background-color: #3d76d3;
