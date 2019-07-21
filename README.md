@@ -24,8 +24,8 @@ Used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-api
 * The other AJAX request involved taking user's input value from the dropdown menu selection and matching it to the API, returning the correct data (in this case the specific breed).
 
 ## Complex User Interface Modules:
- * Utilized javaScript setTimeout() method to open modal 4 seconds after page loads
  * Utilized jQuery to build both the modal and dropdown menus 
+ * Utilized javaScript setTimeout() method to open modal 4 seconds after page loads
  * Minimal code was added to HTML.
  * Utilized jQuery event listeners and handlers to open and close the modal
  * Utilized jQuery animate() method to have images slide into the center of the screen
