@@ -4,7 +4,7 @@
 # Project #1: Dog Fetcher 
 ## Description: An application that allows the user to select from a dropdown menu of dog breeds and see a randomly generated image of that breed
 
-Live link: https://llseely626.github.io/Dog_fetcher/ "Dog_fetcher"
+Live link: https://llseely626.github.io/Dog_fetcher/index "Dog_fetcher"
 
 ## Languages used:
 
@@ -25,10 +25,11 @@ Used AJAX requests to the external API called "Dog API" (https://dog.ceo/dog-api
 
 ## Complex User Interface Modules:
  * Utilized jQuery to build both the modal and dropdown menus 
+ * Utilized javaScript setTimeout() method to open modal 4 seconds after page loads
  * Minimal code was added to HTML.
- * Utilized jQuery animate() method to have images slide into the center of the screen
  * Utilized jQuery event listeners and handlers to open and close the modal
-
+ * Utilized jQuery animate() method to have images slide into the center of the screen
+ 
 ## Responsive Design:
 * Set @media query settings in CSS that allowed for responsive design
 * Text is smaller on narrower media screens
