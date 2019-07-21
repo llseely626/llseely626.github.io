@@ -40,7 +40,7 @@ $(() => {
 
 
     // Set Modal to open 4 seconds after page loads
-    setTimeout(openModal, 4000);
+    setTimeout(openModal, 3000);
 
     // Event handler to close the modal
     const closeModal = () => {
